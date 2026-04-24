@@ -1,4 +1,4 @@
-# Cloud-Terminal-Management System 🛰
+# Terminal-Management System  .Net WEB APP🛰
 
 ## 🛠 Project Overview
 A centralized management platform for remote terminal devices and Van Sales distribution. This project demonstrates experience in IoT-style communication and managing data flow between cloud services and physical hardware.
