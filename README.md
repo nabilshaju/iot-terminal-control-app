@@ -1,13 +1,16 @@
-# iot-terminal-control-app
+# Cloud-Terminal-Management System 🛰
 
-#Concept: A management layer for controlling and monitoring remote terminal devices used in banking or retail.
+## 🛠 Project Overview
+A centralized management platform for remote terminal devices and Van Sales distribution. This project demonstrates experience in IoT-style communication and managing data flow between cloud services and physical hardware.
 
--Architecture: Clean Architecture (Core, Infrastructure, Web API).
+## 🧠 Key Challenges & Solutions
+* **Remote Synchronization:** Solved the challenge of distributing sales data to mobile "Van Sales" units that operate in low-connectivity environments.
+* **Device Management:** Developed a REST API to monitor terminal "heartbeats" and push configuration updates remotely.
+* **Scalability:** Architected using **Clean Architecture** to ensure the system can support an increasing number of devices without performance degradation.
 
--Features:
+## 🏗 Technical Specifications
+* **Architecture:** Clean Architecture (Domain-Driven Design principles).
+* **Communication:** RESTful APIs for cloud-to-device data exchange.
+* **Performance:** Optimized SQL indexing and stored procedures for managing large-scale terminal logs.
 
-    Device Heartbeat: API endpoints to track terminal uptime.
-    
-    Remote Configuration: Sending commands to devices via REST.
-    
-    Identity Security: Ensuring only authorized devices can communicate with the backend.
+> **Note:** This repository outlines the system design and architectural patterns used in professional terminal management environments.
